@@ -11,14 +11,20 @@
 
 ## Installation
 
-1. Clone repository [Static visualization]()
-2. install dependencies:
+1. Clone repository [Interactive Data Visualization](https://github.com/miahro/InteractiveDataVisualization)
+
+2. Go to folder assigment2
+```bash
+cd assignment2
+```
+
+3. Install dependencies:
 
 ```bash
 poetry install
 ```
 
-3. Download and copy the dataset to folder:
+4. Download and copy the dataset to folder:
 ```bash
 /assignment2/data
 ```
@@ -26,7 +32,12 @@ poetry install
 
 ## Running the program
 
-1. To start program run:
+1. Go to folder assigment2
+```bash
+cd assignment2
+```
+
+2. To start program run:
 
 ```bash
 poetry run python3 src/index.py
